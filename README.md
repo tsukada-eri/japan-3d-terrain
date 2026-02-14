@@ -59,12 +59,12 @@ python fgd_dem_to_stl.py ./dem_data -o terrain.stl
 | 基盤地図情報 DEM | https://fgd.gsi.go.jp/download/menu.php | 標高データ（無料・要登録） |
 | 行政区域データ (N03) | https://nlftp.mlit.go.jp/ksj/ | 市区町村の境界線（無料） |
 
-詳しい手順は [docs/manual_ja.md](docs/manual_ja.md) を参照してください。
+詳しい手順は [manual_ja.md](manual_ja.md) を参照してください。
 
 ### AIアシスタントとの連携
 
 LLM（大規模言語モデル）にこのスクリプトを渡して作業を依頼できます。
-プロンプトテンプレートは [docs/ai_prompt.md](docs/ai_prompt.md) を参照してください。
+プロンプトテンプレートは [ai_prompt.md](ai_prompt.md) を参照してください。
 
 ### ライセンス
 
@@ -137,3 +137,4 @@ See [docs/ai_prompt.md](docs/ai_prompt.md) for a ready-made prompt template.
 ### License
 
 MIT License
+
